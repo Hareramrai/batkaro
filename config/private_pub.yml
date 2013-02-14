@@ -5,6 +5,6 @@ test:
   server: "http://localhost:9292/faye"
   secret_token: "secret"
 production:
-  server: "http://192.168.9.247:9292/faye"
+  server: "http://ramfayeserver.herokuapp.com/faye"
   secret_token: "batkaro"
-  signature_expiration: 86400
+  signature_expiration: 86400 # one day
