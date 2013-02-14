@@ -1,4 +1,10 @@
 Batkaro::Application.routes.draw do
+  resources :messages
+  resources :sessions
+  root :to => "sessions#index"
+  match "/auth/:provider/callback" => "sessions#create"
+  
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

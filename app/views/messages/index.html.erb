@@ -1,0 +1,31 @@
+
+<div class="page-header">
+	<h3>Chat with your friends</h3>
+</div>
+<!-- Chat -->
+<div class="row-fluid">
+	<div class="span12">
+		<div class="well">
+			<div id="tchat" class="tchat">
+				<% @messages.each do |message|%>
+				<div class="line">
+					<%= image_tag message.user.facebook_image %> 
+					<b><%=message.content %></b>					
+				</div>
+				<% end%>
+			</div>
+			<hr>			
+
+		   <%= form_for @message, :html => { :remote => true, :class => 'form-horizontal form-inline', :align => "center" } do |f| %>		     	
+		        <%= f.text_field :content, :class => 'input span8',:autocomplete =>"off",:placeholder=>"Message"  %>
+		        <%= f.submit "Send", :class => 'btn btn-primary' %>     	
+				
+			<% end%>
+		</div>
+	</div>
+</div>
+<!-- End of Chat -->
+
+
+<%= subscribe_to "/messages/new" %>
+
