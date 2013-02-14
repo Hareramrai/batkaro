@@ -5,6 +5,8 @@ rails.png: rails-a3386665c05a2d82f711a4aaa72d247c.png
 rails/index.png: rails-a3386665c05a2d82f711a4aaa72d247c.png
 application.js: application-e03ebef01d2e7b59d424fee9fd550242.js
 application/index.js: application-e03ebef01d2e7b59d424fee9fd550242.js
+private_pub.js: private_pub-3e99e02ad12abe6d00b547688b56b417.js
+private_pub/index.js: private_pub-3e99e02ad12abe6d00b547688b56b417.js
 application.css: application-c1894971cb3a6d2e80fe905d234e11b3.css
 application/index.css: application-c1894971cb3a6d2e80fe905d234e11b3.css
 jquery.min.map: jquery.min-6c267bfd2b3f36e6edccb2e584934c1c.map
