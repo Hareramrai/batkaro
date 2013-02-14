@@ -121,6 +121,7 @@ GEM
     omniauth-oauth2 (1.1.1)
       oauth2 (~> 0.8.0)
       omniauth (~> 1.0)
+    pg (0.14.1)
     polyglot (0.3.3)
     private_pub (1.0.3)
       faye
@@ -192,6 +193,7 @@ DEPENDENCIES
   meta_request
   mysql2
   omniauth-facebook
+  pg
   private_pub
   rails (= 3.2.9)
   sass-rails (~> 3.2.3)
