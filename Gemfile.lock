@@ -78,6 +78,9 @@ GEM
       yajl-ruby (>= 1.0.0)
     faye-websocket (0.4.6)
       eventmachine (>= 0.12.0)
+    figaro (0.6.3)
+      bundler (~> 1.0)
+      rails (>= 3, < 5)
     hashie (1.2.0)
     hike (1.2.1)
     http_parser.rb (0.5.3)
@@ -188,6 +191,7 @@ DEPENDENCIES
   better_errors
   binding_of_caller
   coffee-rails (~> 3.2.1)
+  figaro
   jquery-rails
   less-rails
   meta_request
