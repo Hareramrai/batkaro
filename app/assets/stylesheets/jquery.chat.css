@@ -1,0 +1,61 @@
+/* 
+    Document   : jquery.chat.css
+    Created on : 19 Apr, 2013, 3:50:48 PM
+    Author     : hareror
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+.chart-canvas, .chart-data-table{
+  border: 1px solid #333;
+  background: #ebedf2 url("images/gradient.png") repeat-x 0 0;
+}
+
+.chart-canvas {
+  display: block;
+  margin: 0 0 50px 0;
+  cursor: pointer;
+}
+
+.chart-data-table {
+  width: 200px;
+  margin: 0 40px 0 0;
+  float: right;
+  border-collapse: collapse;
+  box-shadow: 0 0 1em rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0 0 1em rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0 0 1em rgba(0, 0, 0, 0.5);
+  background-position: 0 -100px;
+}
+
+.chart-data-table th, .chart-data-table td {
+  padding: 0.5em;
+  border: 1px dotted #666;
+  text-align: left;
+}
+
+.chart-data-table th {
+  border-bottom: 2px solid #333;
+  text-transform: uppercase;
+}
+
+.chart-data-table td {
+  cursor: pointer;
+}
+
+.chart-data-table td.highlight {
+  background: #e8e8e8;
+}
+
+.chart-data-table tr:hover td {
+  background: #f0f0f0;
+}
+.chart-container{
+    width:80%;
+    text-align: center;
+    margin:20px auto;
+}
